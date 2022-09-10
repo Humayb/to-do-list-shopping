@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@font-face {
+  src: url(https://fonts.googleapis.com/css2?family=Rancho&display=swap);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rancho", cursive;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  color: #1b1b1b;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 32px;
+  color: #68a5ff;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 32px;
+  color: #0c0009;
+}
+
+main {
+  margin-top: 3vh;
+}
+main header {
+  background-image: url(./imge/full-shot-surprised-woman-with-colorful-bags1.jpg);
+  padding: 5vh;
+  align-items: center;
+  background-position: 50%;
+}
+main header form #search-item {
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #63505e;
+}
+main header .form-check {
+  margin: 12px;
+  font-size: 24px;
+}
+main header .form-check #hide {
+  border: 1px solid blue;
+}
+main .card-body .add-item {
+  margin: 2vh auto;
+}
+main .card-body .add-item input {
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+main .card-body #list .items {
+  margin: 5px 0;
+  border-left: 4px solid rgb(196, 195, 195);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+main .card-body #list .items:hover {
+  border-left: 4px solid #0d6efd;
+}
+main .card-body #list .items i:hover {
+  color: #0d6efd;
+}
+main .card-body #list button {
+  border: 0;
+  background-color: #f8f9fa;
+}/*# sourceMappingURL=master.css.map */
